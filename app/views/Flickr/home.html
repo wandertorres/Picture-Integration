@@ -1,0 +1,26 @@
+#{extends 'Main/base.html' /}
+#{set title:'Picture Integration' /}
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">{Flickr}</h1>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <img width="100%" src="../../public/images/img-01.jpg" />
+                </div>
+                <div class="panel-footer">
+                    <a class="" href="@{Facebook.post('../../public/images/img-01.jpg')}">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a class="" href="#">
+                        <i class="fa fa-pull-right fa-trash"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
